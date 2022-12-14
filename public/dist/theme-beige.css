@@ -10,7 +10,7 @@ html {
 
 body {
     position: relative;
-    color: var(--light);
+    color: #f8f9fa !important; 
     font-family: Helvetica Neue, Raleway, sans-serif;
     font-weight: 400;
     line-height: 1.6;
@@ -626,7 +626,7 @@ img {
     /* height: 60px; */
     height: 70px;
     z-index: 900;
-    display: none
+    /* display: none */
 }
 
 @media (max-width:991px) {
@@ -651,12 +651,12 @@ img {
 #header-mobile .module-logo {
     width: calc(100% - 90px);
     margin: 0 auto;
-    text-align: center
+    text-align: center;
 }
 
 #header-mobile .module-logo img {
     /* height: 30px */
-    height: 45px
+    height: 45px;
 }
 
 #header-mobile .module-nav-toggle {
